@@ -6,6 +6,7 @@ import { Routes, Route } from "react-router-dom";
 import About from './components/About';
 import Validation from './components/Validation';
 import User from './components/User';
+import Api from './components/Api';
 
 
 
@@ -18,6 +19,7 @@ const App = () => {
         <Route path='/user' element={<User />} />
       </Routes>
       <Validation />
+      <Api />
     </>
   );
 }
